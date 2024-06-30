@@ -1,20 +1,26 @@
+import re
+import math
+
+
 def day1(input: str) -> int:
+    ans: int = 0
     with open(input, "r") as f:
         for line in f.read().splitlines():
-            print(line)
-    return 0
+            _ = line
+    return ans
 
 
 def day2(input: str) -> int:
+    ans: int = 0
     with open(input, "r") as f:
         for line in f.read().splitlines():
-            print(line)
-    return 0
+            _ = line
+    return ans
 
 
 def main():
-    day1("./input/day.1.input")
-    day2("./input/day.1.input")
+    print(day1("./input/day.n.input"))
+    print(day2("./input/day.n.input"))
 
 
 if __name__ == "__main__":
